@@ -1,6 +1,4 @@
-package com.lulu.leetcode.最大子序和;
-
-import java.util.Arrays;
+package com.lulu.leetcode.other.最大子序和;
 
 /**
  * https://leetcode-cn.com/problems/maximum-subarray/

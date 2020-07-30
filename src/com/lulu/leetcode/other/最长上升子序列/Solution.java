@@ -1,6 +1,4 @@
-package com.lulu.leetcode.最长上升子序列;
-
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+package com.lulu.leetcode.other.最长上升子序列;
 
 import java.util.Arrays;
 
