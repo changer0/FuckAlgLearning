@@ -21,7 +21,7 @@ class SolutionKt {
         for (i in 0 until nums.size) {
             if (nums[i] != v)
                 if (k != i) {
-                    swap(nums, k++, i)
+                    nums[k++] = nums[i]
                 } else {
                     k++
                 }
