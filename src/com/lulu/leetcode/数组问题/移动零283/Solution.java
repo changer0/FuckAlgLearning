@@ -1,4 +1,4 @@
-package com.lulu.leetcode.移动零283;
+package com.lulu.leetcode.数组问题.移动零283;
 
 
 import java.util.Arrays;

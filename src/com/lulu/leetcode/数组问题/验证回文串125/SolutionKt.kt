@@ -1,4 +1,4 @@
-package com.lulu.leetcode.验证回文串125
+package com.lulu.leetcode.数组问题.验证回文串125
 
 
 /**

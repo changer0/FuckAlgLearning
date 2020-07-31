@@ -1,6 +1,4 @@
-package com.lulu.leetcode.反转字符串中的元音字母345
-
-import kotlin.test.assertFailsWith
+package com.lulu.leetcode.数组问题.反转字符串中的元音字母345
 
 
 /**
