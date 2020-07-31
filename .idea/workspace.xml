@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5eb647-3f43-48a2-8b8b-192ad06c3e57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lulu/leetcode/验证回文串125/SolutionKt.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lulu/leetcode/数组中的第K个最大元素215/SolutionKt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lulu/leetcode/数组中的第K个最大元素215/SolutionKt.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,65 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/颜色分类75/SolutionKt.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="43" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="19" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组中的第K个最大元素215/SolutionKt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/两数之和167/SolutionKt.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/验证回文串125/SolutionKt.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/合并两个有序数组88/SolutionKt.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="98" column="23" selection-start-line="90" selection-start-column="8" selection-end-line="98" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7650">
-              <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/移动零283/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" selection-start-line="32" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="322">
+              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -110,15 +56,16 @@
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/颜色分类/SolutionKt.kt" />
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/合并两个有序数组88/SolutionKt.kt" />
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/颜色分类75/SolutionKt.kt" />
-        <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组中的第K个最大元素215/SolutionKt.kt" />
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/两数之和167/SolutionKt.kt" />
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/验证回文串125/SolutionKt.kt" />
+        <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组中的第K个最大元素215/SolutionKt.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectId" id="1ceYqwABLcM6XhiGKYWkct71wy4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -127,7 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,6 +151,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -246,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.lulu.leetcode.验证回文串125.SolutionKt">
+  <component name="RunManager" selected="Kotlin.com.lulu.leetcode.数组中的第K个最大元素215.SolutionKt">
     <configuration name="com.lulu.leetcode.验证回文串125.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FuckAlgLearning" />
       <option name="VM_PARAMETERS" />
@@ -314,9 +261,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.lulu.leetcode.数组中的第K个最大元素215.SolutionKt" />
         <item itemvalue="Kotlin.com.lulu.leetcode.验证回文串125.SolutionKt" />
         <item itemvalue="Kotlin.com.lulu.leetcode.两数之和167.SolutionKt" />
-        <item itemvalue="Kotlin.com.lulu.leetcode.数组中的第K个最大元素215.SolutionKt" />
         <item itemvalue="Kotlin.com.lulu.leetcode.合并两个有序数组88.SolutionKt" />
         <item itemvalue="Kotlin.com.lulu.leetcode.颜色分类75.SolutionKt" />
       </list>
@@ -389,14 +336,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596163462037</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="验证回文串125">
+      <created>1596167070136</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596167070136</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24821173" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,7 +359,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24939759" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16506024" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34819278" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,7 +429,8 @@
     <MESSAGE value="归并排序的思路" />
     <MESSAGE value="rename" />
     <MESSAGE value="两数之和167 解决，数组中的第K个最大元素215 需要看下快速排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="两数之和167 解决，数组中的第K个最大元素215 需要看下快速排序" />
+    <MESSAGE value="验证回文串125" />
+    <option name="LAST_COMMIT_MESSAGE" value="验证回文串125" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="110" key="CommitChangelistDialog2" timestamp="1590972368274">
@@ -530,6 +485,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="273" key="extract.method.dialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1590892401856" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/lulu/leetcode/数组中的第K个最大元素215/SolutionKt.kt</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FuckAlgLearning$com_lulu_leetcode_88_SolutionKt.ic" NAME="com.lulu.leetcode.合并两个有序数组88.SolutionKt Coverage Results" MODIFIED="1596107383513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -592,10 +559,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/删除排序数组中的重复项II80/SolutionKt.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/颜色分类75/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" column="43" selection-start-line="16" selection-start-column="12" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/两数之和167/SolutionKt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -613,17 +587,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/颜色分类75/SolutionKt.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/验证回文串125/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组中的第K个最大元素215/SolutionKt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -634,17 +601,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/两数之和167/SolutionKt.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/删除排序数组中的重复项II80/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        <state relative-caret-position="434">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/验证回文串125/SolutionKt.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组中的第K个最大元素215/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="322">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
         </state>
       </provider>
     </entry>
