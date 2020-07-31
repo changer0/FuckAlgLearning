@@ -1,4 +1,4 @@
-package com.lulu.leetcode.other.最长上升子序列;
+package com.lulu.leetcode.旧.最长上升子序列;
 
 import java.util.Arrays;
 

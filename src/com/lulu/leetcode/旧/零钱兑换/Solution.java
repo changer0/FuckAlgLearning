@@ -1,4 +1,4 @@
-package com.lulu.leetcode.other.零钱兑换;
+package com.lulu.leetcode.旧.零钱兑换;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.lulu.leetcode.other.最大子序和;
+package com.lulu.leetcode.旧.最大子序和;
 
 /**
  * https://leetcode-cn.com/problems/maximum-subarray/

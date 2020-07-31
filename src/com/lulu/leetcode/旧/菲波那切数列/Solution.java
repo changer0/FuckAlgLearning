@@ -1,4 +1,4 @@
-package com.lulu.leetcode.other.菲波那切数列;
+package com.lulu.leetcode.旧.菲波那切数列;
 
 import java.util.HashMap;
 import java.util.Map;
