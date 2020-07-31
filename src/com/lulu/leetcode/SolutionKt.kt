@@ -13,4 +13,14 @@ class SolutionKt {
     }
 
 
+
+    /**
+     * Swaps x[a] with x[b].
+     */
+    private fun swap(x: IntArray, a: Int, b: Int) {
+        val t = x[a]
+        x[a] = x[b]
+        x[b] = t
+    }
+
 }
