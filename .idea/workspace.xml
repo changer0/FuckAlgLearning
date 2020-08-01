@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5eb647-3f43-48a2-8b8b-192ad06c3e57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/盛最多水的容器11/SolutionKt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_3_无重复字符的最长子串/SolutionKt.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <list id="308c9195-1dd2-4960-9750-95d1d31c864b" name="ignore" comment="ignore" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,73 +22,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/两数之和167/SolutionKt.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/数组中的第K个最大元素215/SolutionKt.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/盛最多水的容器11/SolutionKt.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/SolutionKt.kt">
+        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_11_盛最多水的容器/SolutionKt.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/反转字符串中的元音字母345/SolutionKt.kt">
+        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_215_数组中的第K个最大元素/SolutionKt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+            <state relative-caret-position="1076">
+              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/合并两个有序数组88/SolutionKt.kt">
+        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_209_长度最小的子数组/SolutionKt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1504">
+            <state relative-caret-position="935">
+              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/旧/最大子序和/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/旧/最长上升子序列/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="37" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_88_合并两个有序数组/SolutionKt.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
               <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/generated/_ArraysJvm.kt">
+        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/旧/菲波那切数列/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="634" column="35" selection-start-line="634" selection-start-column="35" selection-end-line="634" selection-end-column="35" />
+            <state relative-caret-position="-549">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_3_无重复字符的最长子串/SolutionKt.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/验证回文串125/SolutionKt.kt">
+        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_80_删除排序数组中的重复项II/SolutionKt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="434">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/String.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -105,6 +124,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&quot;</find>
+      <find>滑块</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -135,6 +155,9 @@
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/反转字符串中的元音字母345/SolutionKt.kt" />
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/合并两个有序数组88/SolutionKt.kt" />
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/盛最多水的容器11/SolutionKt.kt" />
+        <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/长度最小的子数组209/SolutionKt.kt" />
+        <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_209_长度最小的子数组/SolutionKt.kt" />
+        <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_3_无重复字符的最长子串/SolutionKt.kt" />
       </list>
     </option>
   </component>
@@ -150,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,7 +210,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="数组问题" type="462c0819:PsiDirectoryNode" />
-              <item name="盛最多水的容器11" type="462c0819:PsiDirectoryNode" />
+              <item name="_3_无重复字符的最长子串" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -194,13 +218,76 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="数组问题" type="462c0819:PsiDirectoryNode" />
-              <item name="验证回文串125" type="462c0819:PsiDirectoryNode" />
+              <item name="_11_盛最多水的容器" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FuckAlgLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="数组问题" type="462c0819:PsiDirectoryNode" />
+              <item name="_26_删除排序数组中的重复项" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FuckAlgLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="数组问题" type="462c0819:PsiDirectoryNode" />
+              <item name="_27_移除元素" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FuckAlgLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="数组问题" type="462c0819:PsiDirectoryNode" />
+              <item name="_80_删除排序数组中的重复项II" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FuckAlgLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="数组问题" type="462c0819:PsiDirectoryNode" />
+              <item name="_88_合并两个有序数组" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FuckAlgLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="数组问题" type="462c0819:PsiDirectoryNode" />
+              <item name="_125_验证回文串" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FuckAlgLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="数组问题" type="462c0819:PsiDirectoryNode" />
+              <item name="_167_两数之和" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FuckAlgLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="数组问题" type="462c0819:PsiDirectoryNode" />
+              <item name="_209_长度最小的子数组" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FuckAlgLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="数组问题" type="462c0819:PsiDirectoryNode" />
+              <item name="_215_数组中的第K个最大元素" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -210,6 +297,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -217,11 +305,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.lulu.leetcode.数组问题._3_无重复字符的最长子串" />
+      <recent name="com.lulu.leetcode.数组问题.长度最小的子数组209" />
       <recent name="com.lulu.leetcode.数组问题.盛最多水的容器11" />
       <recent name="com.lulu.leetcode.反转字符串中的元音字母345" />
       <recent name="com.lulu.leetcode.反转字符串344" />
-      <recent name="com.lulu.leetcode.验证回文串125" />
-      <recent name="com.lulu.leetcode.两数之和167" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lulu.leetcode" />
@@ -243,67 +331,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.lulu.leetcode.数组问题.盛最多水的容器11.SolutionKt">
-    <configuration name="com.lulu.leetcode.数组问题.盛最多水的容器11.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.com.lulu.leetcode.数组问题._3_无重复字符的最长子串.SolutionKt">
+    <configuration name="com.lulu.leetcode.数组问题._11_盛最多水的容器.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FuckAlgLearning" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题.盛最多水的容器11.SolutionKt" />
+      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题._11_盛最多水的容器.SolutionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.lulu.leetcode.数组问题.验证回文串125.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.lulu.leetcode.数组问题._209_长度最小的子数组.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FuckAlgLearning" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题.验证回文串125.SolutionKt" />
+      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题._209_长度最小的子数组.SolutionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.lulu.leetcode.数组问题.反转字符串344.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.lulu.leetcode.数组问题._344_反转字符串.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FuckAlgLearning" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题.反转字符串344.SolutionKt" />
+      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题._344_反转字符串.SolutionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.lulu.leetcode.数组问题.反转字符串中的元音字母345.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.lulu.leetcode.数组问题._345_反转字符串中的元音字母.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FuckAlgLearning" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题.反转字符串中的元音字母345.SolutionKt" />
+      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题._345_反转字符串中的元音字母.SolutionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.lulu.leetcode.数组问题.数组中的第K个最大元素215.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.lulu.leetcode.数组问题._3_无重复字符的最长子串.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FuckAlgLearning" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题.数组中的第K个最大元素215.SolutionKt" />
+      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题._3_无重复字符的最长子串.SolutionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -311,11 +399,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题.盛最多水的容器11.SolutionKt" />
-        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题.反转字符串中的元音字母345.SolutionKt" />
-        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题.反转字符串344.SolutionKt" />
-        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题.数组中的第K个最大元素215.SolutionKt" />
-        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题.验证回文串125.SolutionKt" />
+        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._3_无重复字符的最长子串.SolutionKt" />
+        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._209_长度最小的子数组.SolutionKt" />
+        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._11_盛最多水的容器.SolutionKt" />
+        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._345_反转字符串中的元音字母.SolutionKt" />
+        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._344_反转字符串.SolutionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -325,6 +413,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8b5eb647-3f43-48a2-8b8b-192ad06c3e57" name="Default Changelist" comment="" />
+      <changelist id="308c9195-1dd2-4960-9750-95d1d31c864b" name="ignore" comment="" />
       <created>1590890720569</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -428,14 +517,42 @@
       <option name="project" value="LOCAL" />
       <updated>1596204507449</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="盛最多水的容器11 中等">
+      <created>1596206519939</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1596206519939</updated>
+    </task>
+    <task id="LOCAL-00016" summary="长度最小的子数组209 有些难度，需要经常想想">
+      <created>1596242421411</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1596242421412</updated>
+    </task>
+    <task id="LOCAL-00017" summary="package rename">
+      <created>1596286537309</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1596286537309</updated>
+    </task>
+    <task id="LOCAL-00018" summary="rename">
+      <created>1596286968998</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1596286968998</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26609442" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26967096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,14 +561,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2614458" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2614458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34819278" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.21204819" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.35060242" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -517,6 +634,9 @@
     <MESSAGE value="数组中的第K个最大元素215 添加快速排序" />
     <MESSAGE value="反转字符串344 简单" />
     <MESSAGE value="反转字符串中的元音字母345 简单" />
+    <MESSAGE value="盛最多水的容器11 中等" />
+    <MESSAGE value="长度最小的子数组209 有些难度，需要经常想想" />
+    <MESSAGE value="package rename" />
     <MESSAGE value="rename" />
     <option name="LAST_COMMIT_MESSAGE" value="rename" />
   </component>
@@ -578,10 +698,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/数组中的第K个最大元素215/SolutionKt.kt</url>
+          <url>file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_215_数组中的第K个最大元素/SolutionKt.kt</url>
           <line>32</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_209_长度最小的子数组/SolutionKt.kt</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -612,35 +738,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/旧/最大子序和/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/旧/最长上升子序列/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/移除元素27/SolutionKt.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_27_移除元素/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="18" selection-start-line="18" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/删除排序数组中的重复项26/SolutionKt.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_26_删除排序数组中的重复项/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/颜色分类75/SolutionKt.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_75_颜色分类/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="43" selection-start-line="16" selection-start-column="12" selection-end-line="19" selection-end-column="43" />
@@ -654,38 +766,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/移动零283/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_283_移动零/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" selection-start-line="32" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/反转字符串344/SolutionKt.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_344_反转字符串/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/删除排序数组中的重复项II80/SolutionKt.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_167_两数之和/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/两数之和167/SolutionKt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
+        <state relative-caret-position="782">
           <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/验证回文串125/SolutionKt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -696,38 +794,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/generated/_ArraysJvm.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_345_反转字符串中的元音字母/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="634" column="35" selection-start-line="634" selection-start-column="35" selection-end-line="634" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/反转字符串中的元音字母345/SolutionKt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="425">
           <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/合并两个有序数组88/SolutionKt.kt">
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/generated/_ArraysJvm.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1504">
+        <state relative-caret-position="10727">
+          <caret line="634" column="35" selection-start-line="634" selection-start-column="35" selection-end-line="634" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_125_验证回文串/SolutionKt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="85" column="85" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/旧/最大子序和/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/旧/最长上升子序列/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/旧/菲波那切数列/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-549">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/String.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_80_删除排序数组中的重复项II/SolutionKt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_88_合并两个有序数组/SolutionKt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
           <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/数组中的第K个最大元素215/SolutionKt.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_209_长度最小的子数组/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        <state relative-caret-position="935">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/盛最多水的容器11/SolutionKt.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_215_数组中的第K个最大元素/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="1076">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_11_盛最多水的容器/SolutionKt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_3_无重复字符的最长子串/SolutionKt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
         </state>
       </provider>
     </entry>
