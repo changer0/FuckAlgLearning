@@ -24,7 +24,7 @@ class SolutionKt {
 
 
     /**
-     * 双指针索引：滑块窗口
+     * 双指针索引：滑动窗口
      */
     fun minSubArrayLen(s: Int, nums: IntArray): Int {
         var l = 0; var r = -1 //定义滑块的左右指针：[l, r]
