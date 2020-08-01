@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5eb647-3f43-48a2-8b8b-192ad06c3e57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_3_无重复字符的最长子串/SolutionKt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_438_找到字符串中所有字母异位词/SolutionKt.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="308c9195-1dd2-4960-9750-95d1d31c864b" name="ignore" comment="ignore" />
@@ -48,11 +48,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/旧/最大子序和/Solution.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_438_找到字符串中所有字母异位词/SolutionKt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="200">
+              <caret line="27" selection-start-line="27" selection-end-line="68" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!block;n#findAnagrams#0;n#!!block;n#SolutionKt#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_3_无重复字符的最长子串/SolutionKt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+            <state relative-caret-position="272">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -158,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/长度最小的子数组209/SolutionKt.kt" />
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_209_长度最小的子数组/SolutionKt.kt" />
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_3_无重复字符的最长子串/SolutionKt.kt" />
+        <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_438_找到字符串中所有字母异位词/SolutionKt.kt" />
       </list>
     </option>
   </component>
@@ -203,14 +207,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="数组问题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FuckAlgLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="数组问题" type="462c0819:PsiDirectoryNode" />
-              <item name="_3_无重复字符的最长子串" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -284,6 +280,14 @@
               <item name="数组问题" type="462c0819:PsiDirectoryNode" />
               <item name="_215_数组中的第K个最大元素" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FuckAlgLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="数组问题" type="462c0819:PsiDirectoryNode" />
+              <item name="_438_找到字符串中所有字母异位词" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -305,11 +309,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.lulu.leetcode.数组问题._438_找到字符串中所有字母异位词" />
       <recent name="com.lulu.leetcode.数组问题._3_无重复字符的最长子串" />
       <recent name="com.lulu.leetcode.数组问题.长度最小的子数组209" />
       <recent name="com.lulu.leetcode.数组问题.盛最多水的容器11" />
       <recent name="com.lulu.leetcode.反转字符串中的元音字母345" />
-      <recent name="com.lulu.leetcode.反转字符串344" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.lulu.leetcode.数组问题._438_找到字符串中所有字母异位词" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lulu.leetcode" />
@@ -331,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.lulu.leetcode.数组问题._3_无重复字符的最长子串.SolutionKt">
+  <component name="RunManager" selected="Kotlin.com.lulu.leetcode.数组问题._438_找到字符串中所有字母异位词.SolutionKt">
     <configuration name="com.lulu.leetcode.数组问题._11_盛最多水的容器.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FuckAlgLearning" />
       <option name="VM_PARAMETERS" />
@@ -353,19 +360,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题._209_长度最小的子数组.SolutionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.lulu.leetcode.数组问题._344_反转字符串.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="FuckAlgLearning" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题._344_反转字符串.SolutionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -397,13 +391,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.lulu.leetcode.数组问题._438_找到字符串中所有字母异位词.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="FuckAlgLearning" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题._438_找到字符串中所有字母异位词.SolutionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._438_找到字符串中所有字母异位词.SolutionKt" />
         <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._3_无重复字符的最长子串.SolutionKt" />
         <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._209_长度最小的子数组.SolutionKt" />
         <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._11_盛最多水的容器.SolutionKt" />
         <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._345_反转字符串中的元音字母.SolutionKt" />
-        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._344_反转字符串.SolutionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -545,14 +552,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596286968998</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="_3_无重复字符的最长子串 这个问题经典，需要经常复习">
+      <created>1596289625868</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1596289625868</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26967096" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26967096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -561,7 +575,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2614458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2614458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34819278" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -638,7 +652,8 @@
     <MESSAGE value="长度最小的子数组209 有些难度，需要经常想想" />
     <MESSAGE value="package rename" />
     <MESSAGE value="rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename" />
+    <MESSAGE value="_3_无重复字符的最长子串 这个问题经典，需要经常复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="_3_无重复字符的最长子串 这个问题经典，需要经常复习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="110" key="CommitChangelistDialog2" timestamp="1590972368274">
@@ -787,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/SolutionKt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_345_反转字符串中的元音字母/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -864,13 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_209_长度最小的子数组/SolutionKt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_215_数组中的第K个最大元素/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1076">
@@ -887,8 +888,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_3_无重复字符的最长子串/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+        <state relative-caret-position="272">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_209_长度最小的子数组/SolutionKt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_438_找到字符串中所有字母异位词/SolutionKt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="27" selection-start-line="27" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#findAnagrams#0;n#!!block;n#SolutionKt#0" />
+          </folding>
         </state>
       </provider>
     </entry>
