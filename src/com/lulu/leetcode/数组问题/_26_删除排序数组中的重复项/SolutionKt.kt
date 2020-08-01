@@ -1,4 +1,4 @@
-package com.lulu.leetcode.数组问题.删除排序数组中的重复项26
+package com.lulu.leetcode.数组问题._26_删除排序数组中的重复项
 
 import java.util.*
 

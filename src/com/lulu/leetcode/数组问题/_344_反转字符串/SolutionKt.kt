@@ -1,4 +1,4 @@
-package com.lulu.leetcode.数组问题.反转字符串344
+package com.lulu.leetcode.数组问题._344_反转字符串
 
 import java.util.*
 

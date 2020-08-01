@@ -1,4 +1,4 @@
-package com.lulu.leetcode.数组问题.合并两个有序数组88
+package com.lulu.leetcode.数组问题._88_合并两个有序数组
 
 import java.util.*
 

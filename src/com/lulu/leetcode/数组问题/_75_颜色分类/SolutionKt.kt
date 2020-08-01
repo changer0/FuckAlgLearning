@@ -1,4 +1,4 @@
-package com.lulu.leetcode.数组问题.颜色分类75
+package com.lulu.leetcode.数组问题._75_颜色分类
 
 import java.util.*
 

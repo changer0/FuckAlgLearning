@@ -1,4 +1,4 @@
-package com.lulu.leetcode.数组问题.两数之和167
+package com.lulu.leetcode.数组问题._167_两数之和
 
 import java.util.*
 

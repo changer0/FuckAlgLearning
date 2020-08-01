@@ -1,4 +1,4 @@
-package com.lulu.leetcode.数组问题.反转字符串中的元音字母345
+package com.lulu.leetcode.数组问题._345_反转字符串中的元音字母
 
 
 /**

@@ -1,4 +1,4 @@
-package com.lulu.leetcode.数组问题.移除元素27
+package com.lulu.leetcode.数组问题._27_移除元素
 
 import java.util.*
 
