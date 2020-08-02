@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5eb647-3f43-48a2-8b8b-192ad06c3e57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_349_两个数组的交集/SolutionKt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_350_两个数组的交集II/SolutionKt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_242_有效的字母异位词/SolutionKt.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="308c9195-1dd2-4960-9750-95d1d31c864b" name="ignore" comment="ignore" />
@@ -25,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_76_最小覆盖子串/SolutionKt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="1955">
               <caret line="115" column="40" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
             </state>
           </provider>
@@ -34,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_349_两个数组的交集/SolutionKt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="442">
               <caret line="26" column="28" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="28" />
             </state>
           </provider>
@@ -43,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="133382">
               <caret line="7849" column="39" selection-start-line="7849" selection-start-column="39" selection-end-line="7849" selection-end-column="39" />
             </state>
           </provider>
@@ -52,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Collections.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="2975">
               <caret line="189" column="17" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
             </state>
           </provider>
@@ -62,7 +61,7 @@
         <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/collections/TypeAliases.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="16" column="71" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -70,17 +69,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
+            <state relative-caret-position="1105">
               <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_350_两个数组的交集II/SolutionKt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+            <state relative-caret-position="390">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="n#!!block;n#intersect#0;n#!!block;n#SolutionKt#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_242_有效的字母异位词/SolutionKt.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+              <folding>
+                <element signature="n#!!block;n#isAnagram#0;n#!!block;n#SolutionKt#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Maps.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="68" column="65" lean-forward="true" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
+            <state relative-caret-position="1105">
+              <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -145,14 +159,13 @@
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_76_最小覆盖子串/SolutionKt.kt" />
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_349_两个数组的交集/SolutionKt.kt" />
         <option value="$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_350_两个数组的交集II/SolutionKt.kt" />
+        <option value="$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_242_有效的字母异位词/SolutionKt.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="49" />
-    <option name="y" value="23" />
-    <option name="width" value="1391" />
-    <option name="height" value="877" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectId" id="1ceYqwABLcM6XhiGKYWkct71wy4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -161,8 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,18 +212,12 @@
               <item name="查找表问题" type="462c0819:PsiDirectoryNode" />
               <item name="_349_两个数组的交集" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FuckAlgLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FuckAlgLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="查找表问题" type="462c0819:PsiDirectoryNode" />
-              <item name="_350_两个数组的交集II" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -233,11 +238,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.lulu.leetcode.查找表问题._242_有效的字母异位词" />
       <recent name="com.lulu.leetcode.查找表问题._350_两个数组的交集II" />
       <recent name="com.lulu.leetcode.查找表问题._349_两个数组的交集" />
       <recent name="com.lulu.leetcode.数组问题._76_最小覆盖子串" />
       <recent name="com.lulu.leetcode.数组问题._438_找到字符串中所有字母异位词" />
-      <recent name="com.lulu.leetcode.数组问题._3_无重复字符的最长子串" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.lulu.leetcode.数组问题._438_找到字符串中所有字母异位词" />
@@ -262,7 +267,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.lulu.leetcode.查找表问题._350_两个数组的交集II.SolutionKt">
+  <component name="RunManager" selected="Kotlin.com.lulu.leetcode.查找表问题._242_有效的字母异位词.SolutionKt">
+    <configuration name="com.lulu.leetcode.查找表问题._242_有效的字母异位词.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="FuckAlgLearning" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.查找表问题._242_有效的字母异位词.SolutionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.lulu.leetcode.查找表问题._349_两个数组的交集.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FuckAlgLearning" />
       <option name="VM_PARAMETERS" />
@@ -284,19 +302,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.查找表问题._350_两个数组的交集II.SolutionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.lulu.leetcode.数组问题._3_无重复字符的最长子串.SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="FuckAlgLearning" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.lulu.leetcode.数组问题._3_无重复字符的最长子串.SolutionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -330,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.lulu.leetcode.查找表问题._242_有效的字母异位词.SolutionKt" />
         <item itemvalue="Kotlin.com.lulu.leetcode.查找表问题._350_两个数组的交集II.SolutionKt" />
         <item itemvalue="Kotlin.com.lulu.leetcode.查找表问题._349_两个数组的交集.SolutionKt" />
         <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._76_最小覆盖子串.SolutionKt" />
         <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._438_找到字符串中所有字母异位词.SolutionKt" />
-        <item itemvalue="Kotlin.com.lulu.leetcode.数组问题._3_无重复字符的最长子串.SolutionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -497,14 +502,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596334032328</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="_349_两个数组的交集&#10;_350_两个数组的交集II&#10;Set Hash 的使用">
+      <created>1596348200662</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1596348200662</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18669528" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -593,7 +605,8 @@
     <MESSAGE value="_3_无重复字符的最长子串 这个问题经典，需要经常复习" />
     <MESSAGE value="_438_找到字符串中所有字母异位词 这个问题经典，需要经常复习" />
     <MESSAGE value="_76_最小覆盖子串 比较复杂，需要掌握判断在不考虑顺序的前提下判断字符串是否包含的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="_76_最小覆盖子串 比较复杂，需要掌握判断在不考虑顺序的前提下判断字符串是否包含的问题" />
+    <MESSAGE value="_349_两个数组的交集&#10;_350_两个数组的交集II&#10;Set Hash 的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="_349_两个数组的交集&#10;_350_两个数组的交集II&#10;Set Hash 的使用" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="110" key="CommitChangelistDialog2" timestamp="1590972368274">
@@ -846,57 +859,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/数组问题/_76_最小覆盖子串/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="1955">
           <caret line="115" column="40" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_349_两个数组的交集/SolutionKt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133382">
+          <caret line="7849" column="39" selection-start-line="7849" selection-start-column="39" selection-end-line="7849" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="189" column="17" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/collections/TypeAliases.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="16" column="71" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
+        <state relative-caret-position="1105">
           <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Maps.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="68" column="65" lean-forward="true" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="189" column="17" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="7849" column="39" selection-start-line="7849" selection-start-column="39" selection-end-line="7849" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_349_两个数组的交集/SolutionKt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="1105">
+          <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_350_两个数组的交集II/SolutionKt.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state relative-caret-position="390">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="n#!!block;n#intersect#0;n#!!block;n#SolutionKt#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lulu/leetcode/查找表问题/_242_有效的字母异位词/SolutionKt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!block;n#isAnagram#0;n#!!block;n#SolutionKt#0" />
+          </folding>
         </state>
       </provider>
     </entry>
