@@ -29,22 +29,17 @@ class SolutionKt {
     fun intersect(nums1: IntArray, nums2: IntArray): IntArray {
         val record = hashMapOf<Int, Int>()
         for (num in nums1) {
-            record[num]?.let {
-                record[num] = it+1
-            }?:run {
-                record[num] = 1
-            }
+            record[num] = record.getOrDefault(num, 0) + 1
         }
         val result = mutableListOf<Int>()
         for (num in nums2) {
-            record[num]?.let {
-                if (it > 0) {
-                    result.add(num)
-                    if (it - 1 <= 0) {
-                        record.remove(num)
-                    } else {
-                        record[num] = it-1
-                    }
+            val re = record.getOrDefault(num, 0)
+            if (re > 0) {
+                result.add(num)
+                if (re - 1 <= 0) {
+                    record.remove(num)
+                } else {
+                    record[num] = re-1
                 }
             }
         }
