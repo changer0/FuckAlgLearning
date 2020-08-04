@@ -60,38 +60,6 @@ class SolutionKt {
     }
 
     /**
-     * hash 存值，看来是不行！！
-     */
-    fun threeSumHash(nums: IntArray): List<List<Int>> {
-        if (nums.size < 3) {
-            return emptyList()
-        }
-        nums.sort()
-        val arr = ArrayList<ArrayList<Int>>()
-        var i = 0
-        //var j = 0
-        var k = 0
-        var record = hashMapOf<Int, Int>()//保存 num -> index
-        while (i < nums.size ) {
-            if (i == 0 || nums[i] != nums[i-1]) {
-                for (j in i+1 until nums.size){
-                    if (j == i + 1 || nums[j] != nums[j-1]) {
-                        val t = record[0 - nums[i] - nums[j]]
-                        if (t != null) {
-                            arr.add(arrayListOf(nums[i], nums[j], 0 - nums[i] - nums[j]))
-                        }
-                        record[nums[j]] = j
-                    }
-
-                }
-            }
-            record.clear()
-            i++
-        }
-        return arr
-    }
-
-    /**
      * 对撞指针
      */
     fun threeSum(nums: IntArray): List<List<Int>> {
