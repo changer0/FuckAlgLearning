@@ -13,8 +13,10 @@ class SolutionKt {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            val arr = SolutionKt().twoSum(intArrayOf(2, 7, 11, 15), 9)
-            println(Arrays.toString(arr))
+            println(Arrays.toString(SolutionKt().twoSum(intArrayOf(2, 7, 11, 15), 9)))
+            println(Arrays.toString(SolutionKt().twoSum2(intArrayOf(2, 7, 11, 15), 9)))
+            println(Arrays.toString(SolutionKt().twoSum2(intArrayOf(3, 2, 4), 6)))
+            println(Arrays.toString(SolutionKt().twoSum2(intArrayOf(3, 3), 6)))
         }
     }
 
@@ -34,6 +36,26 @@ class SolutionKt {
             record[nums[i]] = i
         }
         throw IllegalArgumentException("no found target")
+    }
+
+
+    /**
+     *  遍历两次
+     */
+    fun twoSum2(nums: IntArray, target: Int): IntArray {
+
+        val record = hashMapOf<Int, Int>()//记录 Index
+        for (i in 0 until nums.size) {
+            record[nums[i]] = i//此时肯定会覆盖
+        }
+
+        for (i in 0 until nums.size) {
+            val complement = target - nums[i]
+            if (record.containsKey(complement) && record[complement] != i) {
+                return intArrayOf(i, record.getOrDefault(complement, 0))
+            }
+        }
+        throw RuntimeException("no found")
     }
 
     /**
