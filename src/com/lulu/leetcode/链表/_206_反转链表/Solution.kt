@@ -10,7 +10,9 @@ class Solution {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            Solution()
+            val head = ListNode.createLinkedList(intArrayOf(1, 2, 3, 4, 5, 6), 6)
+            ListNode.printLinedList(head)
+            ListNode.printLinedList(Solution().reverseList(head))
         }
     }
 
