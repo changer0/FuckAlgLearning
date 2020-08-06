@@ -1,4 +1,4 @@
-package com.lulu.leetcode.链表
+package com.lulu.leetcode.链表.kt
 
 class ListNode(var `val`: Int) {
     var next: ListNode? = null

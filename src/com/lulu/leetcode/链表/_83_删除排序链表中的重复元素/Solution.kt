@@ -1,6 +1,6 @@
 package com.lulu.leetcode.链表._83_删除排序链表中的重复元素
 
-import com.lulu.leetcode.链表.ListNode
+import com.lulu.leetcode.链表.kt.ListNode
 
 
 /**

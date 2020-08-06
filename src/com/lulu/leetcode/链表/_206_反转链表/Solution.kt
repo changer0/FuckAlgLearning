@@ -1,6 +1,6 @@
 package com.lulu.leetcode.链表._206_反转链表
 
-import com.lulu.leetcode.链表.ListNode
+import com.lulu.leetcode.链表.kt.ListNode
 
 
 /**
