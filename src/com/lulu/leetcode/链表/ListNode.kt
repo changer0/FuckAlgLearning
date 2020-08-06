@@ -1,6 +1,6 @@
 package com.lulu.leetcode.链表
 
-class ListNode(var v: Int) {
+class ListNode(var `val`: Int) {
     var next: ListNode? = null
 
     companion object {
@@ -25,7 +25,7 @@ class ListNode(var v: Int) {
 
             var curNode: ListNode? = head
             while (curNode != null) {
-                print("${curNode.v}->")
+                print("${curNode.`val`}->")
                 curNode = curNode.next
             }
             println("null")
