@@ -1,10 +1,10 @@
 package com.lulu.leetcode.链表.java;
 
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
-    ListNode(int x) {
+    public ListNode(int x) {
         val = x;
     }
 
@@ -34,5 +34,10 @@ public class ListNode {
             curNode = curNode.next;
         }
         System.out.println("null");
+    }
+
+    public static void main(String[] args) {
+        ListNode listNode = ListNode.createLinkedList(new int[]{1, 2, 3, 4, 5, 6});
+        ListNode.printLinedList(listNode);
     }
 }
