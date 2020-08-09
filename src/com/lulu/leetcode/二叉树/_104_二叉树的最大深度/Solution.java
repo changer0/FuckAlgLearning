@@ -1,4 +1,4 @@
-package com.lulu.leetcode.栈和队列._104_二叉树的最大深度;
+package com.lulu.leetcode.二叉树._104_二叉树的最大深度;
 
 import com.lulu.leetcode.二叉树.TreeNode;
 
