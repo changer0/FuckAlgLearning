@@ -19,7 +19,7 @@ class Solution {
             this.node = node;
         }
     }
-    //使用队列
+    //使用队列 BFS
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if(root == null) return res;
