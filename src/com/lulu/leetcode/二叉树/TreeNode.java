@@ -1,6 +1,8 @@
 package com.lulu.leetcode.二叉树;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class TreeNode {
@@ -17,19 +19,9 @@ public class TreeNode {
     }
 
     public static void main(String[] args) {
-//        TreeNode root = new TreeNode(4);
-//        root.left = new TreeNode(2);
-//        root.right = new TreeNode(7);
-//
-//        root.left.left = new TreeNode(1);
-//        root.left.right = new TreeNode(3);
-//
-//        root.right.left = new TreeNode(6);
-//        root.right.right = new TreeNode(9);
-//        print(root);
 
         TreeNode node1 = createTree(new int[]{4, 2, 7, 1, 3, 6, 9});
-        TreeNode node2 = createTree(new int[]{0, 1, 2, 3, 4, 5, 6});
+        TreeNode node2 = createTree(new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16});
         print(node1);
         printWithStructure(node2);
     }
@@ -107,11 +99,15 @@ public class TreeNode {
 
         Queue<TreeNode> q = new LinkedList<>();
         q.offer(root);
-        int level = 0;
+        List<List<Integer>> treeArr = new ArrayList<>();
+        int level = 0;//层数
         while(!q.isEmpty()) {
+            List<Integer> levelArr = new ArrayList<>();
+            treeArr.add(levelArr);
             for (int i = q.size(); i > 0; i--) {
                 TreeNode node = q.poll();
                 System.out.print(node.val + " ");
+                levelArr.add(node.val);
                 if(node.left != null) {
                     q.offer(node.left);
                 }
