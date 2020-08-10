@@ -18,9 +18,9 @@ public class Solution {
         root.right.right = new TreeNode(9);
 
         TreeNode treeNode = new Solution().invertTree(root);
-        TreeNode.print2(root);
+        TreeNode.print(root);
         System.out.println();
-        TreeNode.print2(treeNode);
+        TreeNode.print(treeNode);
     }
 
     public TreeNode invertTree(TreeNode root) {
