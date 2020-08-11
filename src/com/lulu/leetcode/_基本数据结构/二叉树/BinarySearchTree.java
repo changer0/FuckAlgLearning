@@ -51,7 +51,7 @@ class BinarySearchTree {
         }
         return root;
     }
-    //是否包含
+    //判断是否包含当前 key
     public boolean contain(int key) {
         if (isEmpty()) return false;
         return contain(root, key);
@@ -69,7 +69,7 @@ class BinarySearchTree {
             return true;
         }
     }
-
+    //获取 key 对应的 value
     public int getValue(int key) {
         return getValue(root, key);
     }
@@ -84,8 +84,24 @@ class BinarySearchTree {
             return root.value;
         }
     }
-
-
+    //获取最大值
+    public int getMaxValue() {
+        return getMaxValue(root);
+    }
+    private int getMaxValue(Node root) {
+        if (root == null) return -1;
+        if (root.right == null) return root.value;
+        return getMaxValue(root.right);
+    }
+    //获取最小值
+    public int getMinValue() {
+        return getMinValue(root);
+    }
+    private int getMinValue(Node root) {
+        if (root == null) return -1;
+        if (root.left == null) return root.value;
+        return getMinValue(root.left);
+    }
     // 前序遍历打印
     public void prePrint() {
         prePrint(root);
@@ -96,7 +112,7 @@ class BinarySearchTree {
         prePrint(root.left);
         prePrint(root.right);
     }
-
+    //层序遍历
     public void print() {
         Queue<Node> q = new LinkedList<>();
         q.offer(root);
@@ -140,6 +156,8 @@ class BinarySearchTree {
         System.out.println(tree.getValue(12));
         System.out.println(tree.getValue(30));
         System.out.println(tree.getValue(90));
+        System.out.println("最大值：" + tree.getMaxValue());
+        System.out.println("最小值：" + tree.getMinValue());
         //System.out.println(tree.size());
     }
 }
