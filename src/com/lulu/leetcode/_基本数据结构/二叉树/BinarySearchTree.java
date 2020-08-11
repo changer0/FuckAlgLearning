@@ -85,22 +85,22 @@ class BinarySearchTree {
         }
     }
     //获取最大值
-    public int getMaxValue() {
-        return getMaxValue(root);
+    public int getMax() {
+        return getMax(root);
     }
-    private int getMaxValue(Node root) {
+    private int getMax(Node root) {
         if (root == null) return -1;
         if (root.right == null) return root.value;
-        return getMaxValue(root.right);
+        return getMax(root.right);
     }
     //获取最小值
-    public int getMinValue() {
-        return getMinValue(root);
+    public int getMin() {
+        return getMin(root);
     }
-    private int getMinValue(Node root) {
+    private int getMin(Node root) {
         if (root == null) return -1;
         if (root.left == null) return root.value;
-        return getMinValue(root.left);
+        return getMin(root.left);
     }
     // 前序遍历打印
     public void prePrint() {
@@ -156,8 +156,8 @@ class BinarySearchTree {
         System.out.println(tree.getValue(12));
         System.out.println(tree.getValue(30));
         System.out.println(tree.getValue(90));
-        System.out.println("最大值：" + tree.getMaxValue());
-        System.out.println("最小值：" + tree.getMinValue());
+        System.out.println("最大值：" + tree.getMax());
+        System.out.println("最小值：" + tree.getMin());
         //System.out.println(tree.size());
     }
 }
