@@ -51,6 +51,40 @@ class BinarySearchTree {
         }
         return root;
     }
+    //是否包含
+    public boolean contain(int key) {
+        if (isEmpty()) return false;
+        return contain(root, key);
+    }
+
+    private boolean contain(Node root, int key) {
+        if (root == null) {
+            return false;
+        }
+        if (key < root.key) {
+            return contain(root.left, key);
+        } else if (key > root.key) {
+            return contain(root.right, key);
+        } else {
+            return true;
+        }
+    }
+
+    public int getValue(int key) {
+        return getValue(root, key);
+    }
+
+    private int getValue(Node root, int key) {
+        if (root == null) return -1;
+        if (key < root.key) {
+            return getValue(root.left, key);
+        } else if (key > root.key) {
+            return getValue(root.right, key);
+        } else {
+            return root.value;
+        }
+    }
+
 
     // 前序遍历打印
     public void prePrint() {
@@ -76,6 +110,7 @@ class BinarySearchTree {
                 q.offer(node.right);
             }
         }
+        System.out.println();
     }
 
     public static void main(String[] args) {
@@ -84,13 +119,13 @@ class BinarySearchTree {
         tree.insert(16, 2);
         tree.insert(30, 6);
         tree.insert(13, 7);
-        tree.insert(22, 7);
-        tree.insert(29, 7);
-        tree.insert(42, 7);
-        tree.insert(23, 7);
-        tree.insert(14, 7);
-        tree.insert(12, 7);
-        tree.insert(20, 7);
+        tree.insert(22, 9);
+        tree.insert(29, 99);
+        tree.insert(42, 999);
+        tree.insert(23, 9999);
+        tree.insert(14, 99999);
+        tree.insert(12, 888);
+        tree.insert(20, 88);
 
 //        tree.insert(4, 1);
 //        tree.insert(5, 2);
@@ -100,6 +135,11 @@ class BinarySearchTree {
 //        tree.insert(10, 7);
 //        tree.insert(12, 7);
         tree.print();
+        System.out.println(tree.contain(12));
+        System.out.println(tree.contain(99));
+        System.out.println(tree.getValue(12));
+        System.out.println(tree.getValue(30));
+        System.out.println(tree.getValue(90));
         //System.out.println(tree.size());
     }
 }
