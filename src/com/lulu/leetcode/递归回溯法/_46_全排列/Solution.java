@@ -20,13 +20,13 @@ public class Solution {
         res.clear();
         if (nums.length <= 0) return res;
         used = new boolean[nums.length];
-        permute(nums, 0, new LinkedList<Integer>());
+        permute(nums,  new LinkedList<Integer>());
         return res;
     }
-    // count 用来记录遍历次数，用于终止递归  p 存放排列后的数据
-    private void permute(int[] nums, int count, LinkedList<Integer> p) {
+    //用于终止递归  p 存放排列后的数据
+    private void permute(int[] nums,LinkedList<Integer> p) {
 
-        if (count == nums.length) {
+        if (p.size() == nums.length) {
             //递归终止条件,已经遍历到一个组合
             res.add((new ArrayList<>(p)));
             return;
@@ -37,7 +37,7 @@ public class Solution {
             if(!used[i]) {
                 used[i] = true;
                 p.push(nums[i]);
-                permute(nums, count+1, p);
+                permute(nums, p);
                 p.pop();//执行完成之后不要忘记取出来
                 used[i] = false;
             }
