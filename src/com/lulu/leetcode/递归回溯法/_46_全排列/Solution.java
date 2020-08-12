@@ -28,7 +28,7 @@ public class Solution {
 
         if (count == nums.length) {
             //递归终止条件,已经遍历到一个组合
-            res.add((List<Integer>) p.clone());
+            res.add((new ArrayList<>(p)));
             return;
         }
 
