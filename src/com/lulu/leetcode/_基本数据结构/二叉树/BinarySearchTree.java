@@ -85,26 +85,26 @@ class BinarySearchTree {
         }
     }
     //获取最大值
-    public int getMax() {
+    public Node getMax() {
         return getMax(root);
     }
-    private int getMax(Node root) {
-        if (root == null) return -1;
-        if (root.right == null) return root.value;
+    private Node getMax(Node root) {
+        if (root == null) return null;
+        if (root.right == null) return root;
         return getMax(root.right);
     }
     //获取最小值
-    public int getMin() {
+    public Node getMin() {
         return getMin(root);
     }
-    private int getMin(Node root) {
-        if (root == null) return -1;
-        if (root.left == null) return root.value;
+    private Node getMin(Node root) {
+        if (root == null) return null;
+        if (root.left == null) return root;
         return getMin(root.left);
     }
     //删除最大节点
     public void removeMax() {
-         removeMax(root);
+         root = removeMax(root);
     }
     //这个返回值表示返回的左子树
     private Node removeMax(Node root) {
@@ -118,7 +118,7 @@ class BinarySearchTree {
     }
     //删除最小节点
     public void removeMin() {
-        removeMin(root);
+        root = removeMin(root);
     }
     private Node removeMin(Node root) {
         if (root == null) return null;
@@ -129,6 +129,43 @@ class BinarySearchTree {
         root.left = removeMin(root.left);
         return root;
     }
+    //根据任意 key 值来删除
+    public void removeByKey(int key) {
+        root = removeByKey(root, key);
+    }
+
+    private Node removeByKey(Node root, int key) {
+        if (root == null) return null;
+        if (key > root.key) { //需要删除的值在右边
+            root.right = removeByKey(root.right, key);
+            return root;
+        }
+        if (key < root.key) { //需要删除的值在左边
+            root.left = removeByKey(root.left, key);
+            return root;
+        }
+        //此时说明已经找到了该节点
+        if (root.right == null) {
+            count--;
+            return root.left;
+        }
+        if (root.left == null) {
+            count--;
+            return root.right;
+        }
+        //此时说明左右节点均不为空
+        //取出右节点最小值，即要删除掉的节点的后继
+        Node rightMin = getMin(root.right);
+        Node successor = new Node(rightMin.key, rightMin.value);
+        successor.left = rightMin.left;
+        successor.right = rightMin.right;
+        count++;//注意维护 count
+        successor.right = removeMin(root.right);
+        successor.left = root.left;
+        count--;
+        return successor;
+    }
+
     // 前序遍历打印
     public void prePrint() {
         prePrint(root);
@@ -171,20 +208,25 @@ class BinarySearchTree {
 //        tree.insert(20, 88);
 
         tree.print();
-        System.out.println(tree.contain(12));
-        System.out.println(tree.contain(99));
-        System.out.println(tree.getValue(12));
-        System.out.println(tree.getValue(30));
-        System.out.println(tree.getValue(90));
-        System.out.println("最大值：" + tree.getMax());
-        System.out.println("最小值：" + tree.getMin());
-        System.out.println("删除最小值：" );
-        tree.removeMin();
-        tree.print();
-        System.out.println("删除最大值：");
-        tree.removeMax();
-        tree.print();
+//        System.out.println(tree.contain(12));
+//        System.out.println(tree.contain(99));
+//        System.out.println(tree.getValue(12));
+//        System.out.println(tree.getValue(30));
+//        System.out.println(tree.getValue(90));
+//        System.out.println("最大值：" + tree.getMax().key);
+//        System.out.println("最小值：" + tree.getMin().key);
+//        System.out.println("删除最小值：" );
+//        tree.removeMin();
+//        tree.print();
+//        System.out.println("删除最大值：");
+//        tree.removeMax();
+//        tree.print();
         //System.out.println(tree.size());
+
+
+        System.out.println("删掉 30 节点：");
+        tree.removeByKey(30);
+        tree.print();
     }
     
 }
