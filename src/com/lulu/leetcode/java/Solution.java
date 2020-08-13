@@ -5,6 +5,8 @@ package com.lulu.leetcode.java;
  */
 public class Solution {
     public static void main(String[] args) {
+        boolean[][] visit = new boolean[20][30];
+
 
     }
 
