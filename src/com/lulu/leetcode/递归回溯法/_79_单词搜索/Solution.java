@@ -19,8 +19,8 @@ class Solution {
     //回溯
     public boolean exist(char[][] board, String word) {
         if (board.length <= 0) return false;
-        m = board.length;//行
-        n = board[0].length;//列
+        m = board.length;//行 x
+        n = board[0].length;//列 y
         visited = new boolean[m][n];
 
 
@@ -41,15 +41,15 @@ class Solution {
     //wordIndex: 目标单词的索引
     //startX: 当前开始遍历的横坐标
     //startY: 当前开始遍历的纵坐标
-    private boolean exist(char[][] board, String word, int wordIndex, int startY, int startX) {
+    private boolean exist(char[][] board, String word, int wordIndex, int startX, int startY) {
         //递归终止条件：当 wordIndex 已经访问到最后一个时
         if (wordIndex == word.length() - 1) {
             //取决于最有一个元素是否和 startX 和 startY 位置的值是否一致
-            return board[startY][startX] == word.charAt(wordIndex);
+            return board[startX][startY] == word.charAt(wordIndex);
         }
         //当前位置符合要求
-        if (word.charAt(wordIndex) == board[startY][startX]) {
-            visited[startY][startX] = true;//记录当前位置已经访问过了
+        if (word.charAt(wordIndex) == board[startX][startY]) {
+            visited[startX][startY] = true;//记录当前位置已经访问过了
             //开始从 4 个方向进行尝试
             for (int i = 0; i < 4; i++) {
                 int newX = startX + dis[i][0];
@@ -58,18 +58,18 @@ class Solution {
                 //System.out.println("newX: " + newX);
                 //System.out.println("newY: " + newY);
                 //System.out.println("m: " + m);
-                if (inArea(newX, newY) && !visited[newY][newX]) {
-                    if (exist(board, word, wordIndex+1, newY, newX)) {
+                if (inArea(newX, newY) && !visited[newX][newY]) {
+                    if (exist(board, word, wordIndex+1, newX, newY)) {
                         return true;
                     }
                 }
             }
-            visited[startY][startX] = false;//回溯设置为未访问状态
+            visited[startX][startY] = false;//回溯设置为未访问状态
         }
         return false;
     }
 
     private boolean inArea(int x, int y) {
-        return x >= 0 && x < n && y >= 0 && y < m;
+        return x >= 0 && x < m && y >= 0 && y < n;
     }
 }
