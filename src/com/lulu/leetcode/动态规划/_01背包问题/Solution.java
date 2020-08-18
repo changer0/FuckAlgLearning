@@ -9,6 +9,7 @@ public class Solution {
     public static void main(String[] args) {
         System.out.println(new Solution().knapsack01ForMomo(new int[]{1, 2, 3}, new int[]{6, 10, 12}, 5));
         System.out.println(new Solution().knapsack01ForDp(new int[]{1, 2, 3}, new int[]{6, 10, 12}, 5));
+        System.out.println(new Solution().knapsack01ForDp2(new int[]{1, 2, 3}, new int[]{6, 10, 12}, 5));
     }
     //记忆化
     private Integer[][] memo;
@@ -58,5 +59,24 @@ public class Solution {
             }
         }
         return dp[len-1][C];
+    }
+
+    //动态规划 优化解法，使用 1 行数组
+    public int knapsack01ForDp2(int[] w, int[] v, int C) {
+        int len = w.length;
+        //表示在 i 个物品 j 的容量下最大价值
+        int[] dp = new int[C+1];
+        //首先初始化放入第0号物品的价值
+        for (int j = 0; j <= C; j++) {
+            dp[j] = w[0] <= j ? v[0] : 0;
+        }
+        //从第1号物品开始，开始考虑是否放入
+        for (int i = 1; i < len; i++) {
+            //从后面开始遍历
+            for (int j = C; j >= w[i]; j--) {
+                dp[j] = Math.max(dp[j], v[i] + dp[j-w[i]]);
+            }
+        }
+        return dp[C];
     }
 }
